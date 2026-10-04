@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Konsertga taklifnoma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Cormorant+Infant:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ffe9f1;--bg2:#f8c9dd;--card:#fff7fa;--ink:#4a1237;--rose:#d63a7a;--gold:#b8842a;--line:#e9a9c4;--chip:#fde0ec;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#2a0d24;--bg2:#4a1840;--card:#3a1232;--ink:#ffe3ee;--rose:#ff7fb0;--gold:#f0c46a;--line:#7a3a68;--chip:#4d1b42}}
+:root[data-theme="dark"]{--bg:#2a0d24;--bg2:#4a1840;--card:#3a1232;--ink:#ffe3ee;--rose:#ff7fb0;--gold:#f0c46a;--line:#7a3a68;--chip:#4d1b42}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100vh;background:radial-gradient(circle at 50% 0,var(--bg2),var(--bg) 70%);color:var(--ink);font-family:"Cormorant Infant",Georgia,serif;font-size:19px;line-height:1.5;display:flex;justify-content:center;padding:20px 14px}
+.card{width:100%;max-width:440px;background:var(--card);border:2px solid var(--gold);border-radius:28px;padding:10px;box-shadow:0 18px 50px rgba(214,58,122,.25)}
+.inner{border:1px solid var(--line);border-radius:20px;padding:0 20px 28px;text-align:center;overflow:hidden}
+.band{display:block;width:calc(100% + 40px);margin:0 -20px;height:34px;color:var(--rose)}
+.lead{margin:18px 0 0;font-style:italic;font-size:20px}
+h1{font-family:"Marck Script","Brush Script MT",cursive;font-weight:400;color:var(--rose);font-size:64px;line-height:1.05;margin:6px 0 4px}
+.sub{font-size:19px;margin:0 0 8px}
+.artist{font-family:"Marck Script","Brush Script MT",cursive;font-size:38px;line-height:1.15;color:var(--gold);margin:10px 0 0}
+.nick{font-size:21px;font-weight:700;margin:0 0 14px}
+.div{display:flex;align-items:center;gap:10px;color:var(--gold);margin:14px 0}
+.div:before,.div:after{content:"";flex:1;height:1px;background:var(--line)}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:6px 0 4px}
+.info div{background:var(--chip);border-radius:16px;padding:12px 8px}
+.info b{display:block;font-family:"Marck Script",cursive;font-weight:400;font-size:30px;color:var(--rose);line-height:1.1}
+.place{background:var(--chip);border-radius:16px;padding:12px;margin-top:10px}
+.place b{font-size:22px}
+.timer{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:6px 0}
+.timer div{border:1px solid var(--line);border-radius:14px;padding:8px 2px}
+.timer b{display:block;font-size:30px;color:var(--rose);font-variant-numeric:tabular-nums}
+.timer span{font-size:15px}
+.btn{display:block;width:100%;margin-top:10px;padding:14px;border-radius:999px;font:700 20px "Cormorant Infant",Georgia,serif;text-decoration:none;cursor:pointer;border:2px solid var(--rose)}
+.btn.main{background:var(--rose);color:#fff}
+.btn.alt{background:transparent;color:var(--rose)}
+.btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.msg{min-height:30px;margin:12px 0 0;font-family:"Marck Script",cursive;font-size:26px;color:var(--gold)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (prefers-reduced-motion:no-preference){h1{animation:in 1.2s ease both}@keyframes in{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:none}}}
+</style>
+</head>
+<body>
+<main class="card"><div class="inner">
+<svg class="band" viewBox="0 0 400 34" preserveAspectRatio="none" aria-hidden="true">
+<defs><pattern id="p" width="34" height="34" patternUnits="userSpaceOnUse">
+<path d="M17 4c4 5 4 9 0 13-4-4-4-8 0-13zm0 26c-4-5-4-9 0-13 4 4 4 8 0 13zM4 17c5-4 9-4 13 0-4 4-8 4-13 0zm26 0c-5 4-9 4-13 0 4-4 8-4 13 0z" fill="currentColor"/>
+<circle cx="17" cy="17" r="2.6" fill="var(--gold)"/></pattern></defs>
+<rect width="400" height="34" fill="url(#p)"/></svg>
+
+<p class="lead">Sizni konsertga taklif qilaman</p>
+<h1>Любимая Сумая</h1>
+<p class="sub">Siz bilan birga bo'lgan bu oqshom unutilmas bo'lsin</p>
+
+<div class="div">✦</div>
+<p class="sub" style="margin:0">Konsert</p>
+<p class="artist">Izzat Shukurov</p>
+<p class="nick">(Devonangman)</p>
+
+<div class="info">
+<div><b>10-oktyabr</b>Shanba</div>
+<div><b>18:00</b>Boshlanish vaqti</div>
+</div>
+<div class="place">Toshkent shahri<br><b>Humo Arena</b></div>
+
+<div class="div">✦</div>
+<p class="sub" style="margin:0 0 8px">Konsertgacha qoldi</p>
+<div class="timer" aria-live="off">
+<div><b id="d">0</b><span>kun</span></div>
+<div><b id="h">0</b><span>soat</span></div>
+<div><b id="m">0</b><span>daqiqa</span></div>
+<div><b id="s">0</b><span>soniya</span></div>
+</div>
+
+<div class="row">
+<button class="btn main" id="yes">Boraman</button>
+<button class="btn alt" id="no">Bora olmayman</button>
+</div>
+<p class="msg" id="msg" role="status"></p>
+<a class="btn alt" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Humo+Arena+Tashkent">Xaritada ko'rish</a>
+</div></main>
+<script>
+var T=new Date("2026-10-10T18:00:00+05:00").getTime();
+function tick(){var x=Math.max(0,T-Date.now());
+document.getElementById("d").textContent=Math.floor(x/864e5);
+document.getElementById("h").textContent=Math.floor(x%864e5/36e5);
+document.getElementById("m").textContent=Math.floor(x%36e5/6e4);
+document.getElementById("s").textContent=Math.floor(x%6e4/1e3)}
+tick();setInterval(tick,1000);
+var M={yes:"Rahmat! Sizni kutaman 💖",no:"Afsus, lekin tushunaman. Keyingi safar albatta!"};
+function show(k){document.getElementById("msg").textContent=M[k]}
+function save(k){try{localStorage.setItem("rsvp",k)}catch(e){}}
+["yes","no"].forEach(function(k){document.getElementById(k).onclick=function(){save(k);show(k)}});
+try{var r=localStorage.getItem("rsvp");if(r&&M[r])show(r)}catch(e){}
+</script>
+</body>
+</html>
